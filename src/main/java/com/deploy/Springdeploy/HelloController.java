@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @Value("${app.message}") // Toma datos de application.properties
+    /*@Value("${app.message}") // Toma datos de application.properties
     String message1;
 
     @Value("${app.varexample}") // Toma datos de application.properties
-    String message2;
+    String message2;*/
 
     @GetMapping("/hola")
     public String holaMundo(){
